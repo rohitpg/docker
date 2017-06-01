@@ -1,5 +1,5 @@
 # use a node base image
-FROM node:7-onbuild
+FROM node:4-onbuild
 
 # set maintainer
 LABEL maintainer "mrigank@infoobjects.com"
