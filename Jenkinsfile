@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("rohitpuri/docker")
+        app = docker.build("mrigankt/docker")
     }
 
     stage('Test image') {
